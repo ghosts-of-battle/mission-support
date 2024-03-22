@@ -1,0 +1,24 @@
+name = "Ghosts of Battle Mission Framework"
+mainprefix = "z"
+prefix = "ghostmf"
+author = "YonV"
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "LICENSE",
+    "gobp2_256_g.paa",
+    "gobp2_256.paa",
+]
+
+exclude = ["*.psd", "*.tga"]
+
+[version]
+path = "addons/main/script_version.hpp"
+
+[asc]
+exclude = [
+    ".inc.sqf",
+    "cba_settings.sqf",
+]
